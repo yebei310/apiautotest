@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 27.2 sec <<< FAILURE!
+updateUserInfo(com.course.cases.UpdateUserInfoTest)  Time elapsed: 10.038 sec  <<< FAILURE!
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at com.course.cases.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:28)
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:875)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:708)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:701)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 37 more
+
+deleteUser(com.course.cases.UpdateUserInfoTest)  Time elapsed: 10.062 sec  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "{"timestamp":1560525476198,"status":500,"error":"Internal Server Error","exception":"org.springframework.jdbc.BadSqlGrammarException","message":"\n### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 8' at line 3\n### The error may involve com.course.updateUserInfo-Inline\n### The error occurred while setting parameters\n### SQL: update user                    where id = ?\n### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 8' at line 3\n; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 8' at line 3","path":"/v1/updateUserInfo"}"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.course.cases.UpdateUserInfoTest.getResult(UpdateUserInfoTest.java:73)
+	at com.course.cases.UpdateUserInfoTest.deleteUser(UpdateUserInfoTest.java:44)
+
+getUserListInfo(com.course.cases.GetUserInfoListTest)  Time elapsed: 0.066 sec  <<< FAILURE!
+java.lang.AssertionError: expected [{"password":"zhaozhao","sex":"0","permission":"1","id":8,"userName":"zhao9","age":"35"}] but found [{"password":"zhaozhao","isDelete":null,"sex":"0","permission":"1","id":8,"userName":"zhao9","age":"35"}]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.course.cases.GetUserInfoListTest.getUserListInfo(GetUserInfoListTest.java:43)
+

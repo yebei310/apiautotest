@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="3" name="TestSuite" time="27.199" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/yebeibei/Documents/AutoTest-master-second/Chapter12"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/yebeibei/Documents/AutoTest-master-second/Chapter12"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/surefire/surefirebooter4878972699258381019.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/zk/bfhxq1l541zcg9g3y0cd7t_c0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yebeibei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/test-classes:/Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/classes:/Users/yebeibei/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/yebeibei/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yebeibei/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/yebeibei/.m2/repository/org/json/json/20170516/json-20170516.jar:/Users/yebeibei/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar:/Users/yebeibei/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/yebeibei/.m2/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar:/Users/yebeibei/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/yebeibei/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/yebeibei/.m2/repository/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar:/Users/yebeibei/.m2/repository/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar:/Users/yebeibei/.m2/repository/org/mongodb/mongodb-driver/3.4.2/mongodb-driver-3.4.2.jar:/Users/yebeibei/.m2/repository/org/mongodb/bson/3.4.2/bson-3.4.2.jar:/Users/yebeibei/.m2/repository/org/mongodb/mongodb-driver-core/3.4.2/mongodb-driver-core-3.4.2.jar:/Users/yebeibei/.m2/repository/com/vimalselvam/testng-extentsreport/1.3.1/testng-extentsreport-1.3.1.jar:/Users/yebeibei/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar:/Users/yebeibei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar:/Users/yebeibei/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yebeibei/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/Users/yebeibei/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/yebeibei/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14"/>
+    <property name="user.home" value="/Users/yebeibei"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="yebeibei"/>
+    <property name="java.class.path" value="/Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/test-classes:/Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/classes:/Users/yebeibei/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/yebeibei/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/yebeibei/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/yebeibei/.m2/repository/org/json/json/20170516/json-20170516.jar:/Users/yebeibei/.m2/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar:/Users/yebeibei/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar:/Users/yebeibei/.m2/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar:/Users/yebeibei/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/yebeibei/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/yebeibei/.m2/repository/org/xerial/sqlite-jdbc/3.15.1/sqlite-jdbc-3.15.1.jar:/Users/yebeibei/.m2/repository/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar:/Users/yebeibei/.m2/repository/org/mongodb/mongodb-driver/3.4.2/mongodb-driver-3.4.2.jar:/Users/yebeibei/.m2/repository/org/mongodb/bson/3.4.2/bson-3.4.2.jar:/Users/yebeibei/.m2/repository/org/mongodb/mongodb-driver-core/3.4.2/mongodb-driver-core-3.4.2.jar:/Users/yebeibei/.m2/repository/com/vimalselvam/testng-extentsreport/1.3.1/testng-extentsreport-1.3.1.jar:/Users/yebeibei/.m2/repository/com/google/guava/guava/20.0/guava-20.0.jar:/Users/yebeibei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar:/Users/yebeibei/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/yebeibei/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/Users/yebeibei/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/yebeibei/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/surefire/surefirebooter4878972699258381019.jar /Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/surefire/surefire6802449005883093352tmp /Users/yebeibei/Documents/AutoTest-master-second/Chapter12/target/surefire/surefire4439161761805774963tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/Users/yebeibei/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/yebeibei/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="0.774"/>
+  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="0.041"/>
+  <testcase classname="com.course.cases.AddUserTest" name="addUser" time="5.066"/>
+  <testcase classname="com.course.cases.GetUserInfoTest" name="getUserInfo" time="0.052"/>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="updateUserInfo" time="10.038">
+    <failure message="
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:150)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:77)
+	at com.course.cases.UpdateUserInfoTest.updateUserInfo(UpdateUserInfoTest.java:28)
+Caused by: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for null
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:875)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:708)
+	at org.apache.ibatis.session.Configuration.getMappedStatement(Configuration.java:701)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 37 more
+</failure>
+    <system-out>UpdateUserInfoCase(id=1, userId=2, userName=hah, sex=null, age=null, permission=null, isDelete=null, expected=null)
+http://localhost:8833/v1/updateUserInfo
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoTest" name="deleteUser" time="10.062">
+    <failure message="For input string: &quot;{&quot;timestamp&quot;:1560525476198,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.springframework.jdbc.BadSqlGrammarException&quot;,&quot;message&quot;:&quot;\n### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;where id = 8&apos; at line 3\n### The error may involve com.course.updateUserInfo-Inline\n### The error occurred while setting parameters\n### SQL: update user                    where id = ?\n### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;where id = 8&apos; at line 3\n; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;where id = 8&apos; at line 3&quot;,&quot;path&quot;:&quot;/v1/updateUserInfo&quot;}&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;{&quot;timestamp&quot;:1560525476198,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.springframework.jdbc.BadSqlGrammarException&quot;,&quot;message&quot;:&quot;\n### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;where id = 8&apos; at line 3\n### The error may involve com.course.updateUserInfo-Inline\n### The error occurred while setting parameters\n### SQL: update user                    where id = ?\n### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;where id = 8&apos; at line 3\n; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &apos;where id = 8&apos; at line 3&quot;,&quot;path&quot;:&quot;/v1/updateUserInfo&quot;}&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.course.cases.UpdateUserInfoTest.getResult(UpdateUserInfoTest.java:73)
+	at com.course.cases.UpdateUserInfoTest.deleteUser(UpdateUserInfoTest.java:44)
+</failure>
+    <system-out>UpdateUserInfoCase(id=2, userId=8, userName=null, sex=null, age=null, permission=null, isDelete=null, expected=null)
+http://localhost:8833/v1/updateUserInfo
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoListTest" name="getUserListInfo" time="0.067">
+    <failure message="expected [{&quot;password&quot;:&quot;zhaozhao&quot;,&quot;sex&quot;:&quot;0&quot;,&quot;permission&quot;:&quot;1&quot;,&quot;id&quot;:8,&quot;userName&quot;:&quot;zhao9&quot;,&quot;age&quot;:&quot;35&quot;}] but found [{&quot;password&quot;:&quot;zhaozhao&quot;,&quot;isDelete&quot;:null,&quot;sex&quot;:&quot;0&quot;,&quot;permission&quot;:&quot;1&quot;,&quot;id&quot;:8,&quot;userName&quot;:&quot;zhao9&quot;,&quot;age&quot;:&quot;35&quot;}]" type="java.lang.AssertionError">java.lang.AssertionError: expected [{&quot;password&quot;:&quot;zhaozhao&quot;,&quot;sex&quot;:&quot;0&quot;,&quot;permission&quot;:&quot;1&quot;,&quot;id&quot;:8,&quot;userName&quot;:&quot;zhao9&quot;,&quot;age&quot;:&quot;35&quot;}] but found [{&quot;password&quot;:&quot;zhaozhao&quot;,&quot;isDelete&quot;:null,&quot;sex&quot;:&quot;0&quot;,&quot;permission&quot;:&quot;1&quot;,&quot;id&quot;:8,&quot;userName&quot;:&quot;zhao9&quot;,&quot;age&quot;:&quot;35&quot;}]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.course.cases.GetUserInfoListTest.getUserListInfo(GetUserInfoListTest.java:43)
+</failure>
+    <system-out>GetUserListCase(userName=null, age=null, sex=0, expected=getUserList)
+http://localhost:8833/v1/getUserInfo
+获取的user：{id:1,userName:zhangsan,password:123456,age:20,sex:0,permission:0,isDelete:0}
+获取的user：{id:3,userName:wangwu,password:123456,age:30,sex:0,permission:1,isDelete:0}
+获取的user：{id:5,userName:zhang1,password:123,age:20,sex:0,permission:0,isDelete:0}
+获取的user：{id:8,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:9,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:10,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:11,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:12,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:13,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:14,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:15,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:17,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:18,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:19,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:20,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+获取的user：{id:21,userName:zhao9,password:zhaozhao,age:35,sex:0,permission:1,isDelete:null}
+</system-out>
+  </testcase>
+</testsuite>
